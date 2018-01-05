@@ -32,4 +32,6 @@ public class Student implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
     }
+
+
 }

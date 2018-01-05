@@ -13,7 +13,7 @@ public class MyService extends Service {
     @Override
     public IBinder onBind(Intent intent) {
         Log.d("mmm", "绑定了");
-        return new MyServer();
+        return new MyBinder();
     }
 
     class MyServer extends IMyAidlInterface.Stub {
